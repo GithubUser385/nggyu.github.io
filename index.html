@@ -51,13 +51,13 @@
         }
 
         #accept-button {
-            background-color: rgb(255, 0, 0);
+            background-color: rgb(164, 0, 0);
             color: white;
         }
 
         #decline-button {
-            color: rgb(0, 0, 0);
-            border: 2px solid rgb(0, 0, 0);
+            color: rgb(12, 0, 0);
+            border: 2px solid rgb(68, 0, 0);
         }
 
         p.overlay-description {
@@ -135,13 +135,13 @@
     <div id="overlay" class="overlay">
         <div class="text-bg">
             <div class="overlay-body">
-                <p class="overlay-title">您是否已满18岁</p>
-                <p class="overlay-description">以下内容可能不适合<b>未满18岁</b>的人群观看，我们需要确认您的年龄。</p>
+                <p class="overlay-title"年龄确认</p>
+                <p class="overlay-description">以下内容可能会引起<b>未满18岁</b>的人的不适</p>
                 <p class="overlay-description">The following may not be suitable for people <b>under the age of
                         18</b> and we need to confirm your age.</p>
                 <div class="overlay-buttons-wrapper">
-                    <div id="accept-button" class="overlay-button">已满18岁</div>
-                    <div id="decline-button" class="overlay-button">未满18岁</div>
+                    <div id="accept-button" class="overlay-button"确认观看</div>
+                    <div id="decline-button" class="overlay-button">我未满18岁</div>
                 </div>
             </div>
         </div>
@@ -155,7 +155,7 @@
         const declineButton = document.getElementById("decline-button");
         const acceptButton = document.getElementById("accept-button");
         video.addEventListener("ended", function () {
-            window.location.href = "https://arcxingye.github.io/rr/qrcode";
+            window.location.href = "https://githubuser385.github.io/MCModAPI";
         });
         function buttonClick1(event) {
             event.preventDefault();
